@@ -1,0 +1,53 @@
+.App{
+    text-align: center;
+    font-family: Arial;
+}
+
+.selected {
+    background: rgb(210, 145, 230) !important;
+}
+
+.button{
+    background-color: #04AA6D; /* Green */
+    border: radius 12px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.options {
+    padding: 7px;
+    border: 3px solid rgb(17, 17, 17);
+    cursor: pointer;
+    width:90%;
+    background-color: rgb(253, 247, 247);
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 5px;
+}
+
+body{
+    display: flex;
+    justify-content: center;    
+    color:rgb(24, 23, 23);
+    font-family: 'Segoe UI',;
+    font-size: 18px;
+    background-color: rgb(187, 245, 245);
+
+ }
